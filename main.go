@@ -24,9 +24,7 @@ func main() {
 		},
 	}
 
-	var inv order.OrderInvoice
-
-	inv = &order.IntegratedInvoice{
+	inv := &order.IntegratedInvoice{
 		Payment: &payment.Bpayment{},
 	}
 	
